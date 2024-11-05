@@ -1,0 +1,17 @@
+CXX = g++
+
+CXXFLAGS = -std=c++17 `pkg-config --cflags opencv4`
+
+LDFLAGS = `pkg-config --libs opencv4`
+
+SRC = face.cpp
+
+TARGET = face
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC) $(LDFLAGS)
+
+clean:
+	rm -f $(TARGET)
