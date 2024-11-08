@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/pw/MyStuff/tpv/face_detect/main.cpp" "CMakeFiles/face.dir/main.cpp.o" "gcc" "CMakeFiles/face.dir/main.cpp.o.d"
+  "/Users/pw/MyStuff/tpv/face_detect/main.cpp" "CMakeFiles/FaceDetection.dir/main.cpp.o" "gcc" "CMakeFiles/FaceDetection.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
